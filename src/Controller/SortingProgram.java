@@ -84,7 +84,7 @@ public class SortingProgram extends Menu<String> {
                     case 2: {
                         System.out.println("Current array: " + Arrays.toString(array));
                         if (sorted == true) {
-                            int result = algorithm.linearSearch(array, library.getInt("Enter number to find"));
+                            int result = algorithm.binarySearch(array, library.getInt("Enter number to find"));
                             if (result >= 0) {
                                 System.out.println("Your number is at position: " + result);
                             } else {
